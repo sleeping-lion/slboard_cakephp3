@@ -14,7 +14,7 @@ class Gallery extends Entity
      *
      * @var array
      */
-    protected $_accessible = [
+    protected $_accessible = array(
         'user_id' => true,
         'gallery_category_id' => true,
         'title' => true,
@@ -27,5 +27,5 @@ class Gallery extends Entity
         'updated_at' => true,
         'user' => true,
         'gallery_category' => true,
-    ];
+    );
 }

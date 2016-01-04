@@ -33,8 +33,13 @@ class GalleriesTable extends Table
             'joinType' => 'INNER'
         ]);
         $this->addBehavior('Utils.Uploadable', [
-    'photo',
-	]);			
+ 'photo' => [                                                    //field_name of form input
+        'field' => 'id',                                          //Any field from form (id=5)
+        'path' => '{ROOT}{DS}{WEBROOT}{DS}uploads{DS}',           // Set path to webroot
+        'fileName' => '{field}.{extension}'                       // File name with extension
+        ],
+     ]
+]);
     }
 
     /**
