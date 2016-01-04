@@ -13,8 +13,7 @@
 <?php echo $this->Form->input('content',array('div'=>array('class'=>'form-group'),'class'=>'form-control')) ?>
 </div>
 <div class="form-group">
-<?php echo $this->Form->input('Gallery.photo', array('type' => 'file','div'=>array('class'=>'form-group'))) ?>
-<?php echo $this->Form->input('Gallery.photo_dir', array('type' => 'hidden','div'=>array('class'=>'form-group'),'class'=>'form-control')); ?>
+<?php echo $this->Form->input('photo', array('type' => 'file','div'=>array('class'=>'form-group'))) ?>
 </div>
 <div class="form-group">
 <?php echo $this -> Form ->Button(__('Save Article'),array('class' => 'btn btn-primary')) ?>

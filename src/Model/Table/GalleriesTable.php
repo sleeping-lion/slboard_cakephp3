@@ -34,12 +34,10 @@ class GalleriesTable extends Table
         ]);
         $this->addBehavior('Utils.Uploadable', [
  'photo' => [                                                    //field_name of form input
-        'field' => 'id',                                          //Any field from form (id=5)
-        'path' => '{ROOT}{DS}{WEBROOT}{DS}uploads{DS}',           // Set path to webroot
+     		'path' => '{ROOT}{DS}{WEBROOT}{DS}uploads{DS}{model}{DS}{field}{DS}',
         'fileName' => '{field}.{extension}'                       // File name with extension
         ],
-     ]
-]);
+     ]);
     }
 
     /**

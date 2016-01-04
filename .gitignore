@@ -2,4 +2,4 @@ config/app.php
 vendor
 tmp
 logs
-webroot/uploads
+webroot/Uploads
