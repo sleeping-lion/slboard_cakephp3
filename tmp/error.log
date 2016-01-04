@@ -1,0 +1,140 @@
+2015-04-23 10:24:01 Warning: Warning (2): mkdir(): Permission denied in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 422]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+mkdir - [internal], line ??
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 422
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 88
+DebugKit\Cache\Engine\DebugEngine::init() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 79
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 88
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 467
+Cake\Error\ExceptionRenderer::_getController() - CORE/src/Error/ExceptionRenderer.php, line 112
+Cake\Error\ExceptionRenderer::__construct() - CORE/src/Error/ExceptionRenderer.php, line 90
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 142
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-04-23 10:24:01 Warning: Warning (512): /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/tmp/cache/persistent/ is not writable in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 430]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 430
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 88
+DebugKit\Cache\Engine\DebugEngine::init() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 79
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 88
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 467
+Cake\Error\ExceptionRenderer::_getController() - CORE/src/Error/ExceptionRenderer.php, line 112
+Cake\Error\ExceptionRenderer::__construct() - CORE/src/Error/ExceptionRenderer.php, line 90
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 142
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-04-23 10:24:01 Error: [Cake\Routing\Exception\MissingControllerException] Controller class home could not be found.
+Exception Attributes: array (
+  'class' => 'home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-04-23 10:24:11 Warning: Warning (2): mkdir(): Permission denied in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 422]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+mkdir - [internal], line ??
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 422
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 88
+DebugKit\Cache\Engine\DebugEngine::init() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 79
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 88
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 467
+Cake\Error\ExceptionRenderer::_getController() - CORE/src/Error/ExceptionRenderer.php, line 112
+Cake\Error\ExceptionRenderer::__construct() - CORE/src/Error/ExceptionRenderer.php, line 90
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 142
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-04-23 10:24:11 Warning: Warning (512): /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/tmp/cache/persistent/ is not writable in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 430]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 430
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 102
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 88
+DebugKit\Cache\Engine\DebugEngine::init() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 79
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 88
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+DebugKit\Panel\TimerPanel::DebugKit\Panel\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Panel/TimerPanel.php, line 54
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 381
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Controller\Controller::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Controller\Controller::startupProcess() - CORE/src/Controller/Controller.php, line 467
+Cake\Error\ExceptionRenderer::_getController() - CORE/src/Error/ExceptionRenderer.php, line 112
+Cake\Error\ExceptionRenderer::__construct() - CORE/src/Error/ExceptionRenderer.php, line 90
+Cake\Error\ErrorHandler::_displayException() - CORE/src/Error/ErrorHandler.php, line 142
+Cake\Error\BaseErrorHandler::handleException() - CORE/src/Error/BaseErrorHandler.php, line 155
+[main] - [internal], line ??
+
+
+
+2015-04-23 10:24:11 Error: [Cake\Routing\Exception\MissingControllerException] Controller class home could not be found.
+Exception Attributes: array (
+  'class' => 'home',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

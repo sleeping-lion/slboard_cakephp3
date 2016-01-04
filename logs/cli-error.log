@@ -1,0 +1,379 @@
+2015-05-12 09:18:02 Warning: Warning (512): /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/tmp/cache/persistent/ is not writable in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 89
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+Recaptcha\Validation\ConfigValidator::__construct() - ROOT/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php, line 96
+include - ROOT/vendor/cake17/cakephp-recaptcha/config/bootstrap.php, line 19
+Cake\Core\Plugin::_includeFile() - CORE/src/Core/Plugin.php, line 390
+Cake\Core\Plugin::bootstrap() - CORE/src/Core/Plugin.php, line 316
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 176
+include - ROOT/config/bootstrap.php, line 188
+[main] - ROOT/bin/cake.php, line 18
+
+
+
+2015-05-12 09:18:02 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(89): Cake\Cache\CacheRegistry->_create('Cake\\Cache\\Engi...', '_cake_core_', Array)
+#1 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(135): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(165): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(73): Cake\Cache\Cache::engine('_cake_core_')
+#4 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(138): Cake\I18n\I18n::translators()
+#5 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/functions.php(81): Cake\I18n\I18n::translator('recaptcha')
+#6 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php(96): __d('recaptcha', 'The lang should...')
+#7 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/config/bootstrap.php(19): Recaptcha\Validation\ConfigValidator->__construct()
+#8 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(390): include('/home/toughjjh/...')
+#9 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(316): Cake\Core\Plugin::_includeFile('/home/toughjjh/...', false)
+#10 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(176): Cake\Core\Plugin::bootstrap('Recaptcha')
+#11 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/config/bootstrap.php(188): Cake\Core\Plugin::load('Recaptcha', Array)
+#12 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/bin/cake.php(18): include('/home/toughjjh/...')
+#13 {main}
+
+
+2015-05-12 09:18:04 Warning: Warning (512): /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/tmp/cache/persistent/ is not writable in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 89
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+Recaptcha\Validation\ConfigValidator::__construct() - ROOT/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php, line 96
+include - ROOT/vendor/cake17/cakephp-recaptcha/config/bootstrap.php, line 19
+Cake\Core\Plugin::_includeFile() - CORE/src/Core/Plugin.php, line 390
+Cake\Core\Plugin::bootstrap() - CORE/src/Core/Plugin.php, line 316
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 176
+include - ROOT/config/bootstrap.php, line 188
+[main] - ROOT/bin/cake.php, line 18
+
+
+
+2015-05-12 09:18:04 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(89): Cake\Cache\CacheRegistry->_create('Cake\\Cache\\Engi...', '_cake_core_', Array)
+#1 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(135): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(165): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(73): Cake\Cache\Cache::engine('_cake_core_')
+#4 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(138): Cake\I18n\I18n::translators()
+#5 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/functions.php(81): Cake\I18n\I18n::translator('recaptcha')
+#6 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php(96): __d('recaptcha', 'The lang should...')
+#7 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/config/bootstrap.php(19): Recaptcha\Validation\ConfigValidator->__construct()
+#8 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(390): include('/home/toughjjh/...')
+#9 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(316): Cake\Core\Plugin::_includeFile('/home/toughjjh/...', false)
+#10 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(176): Cake\Core\Plugin::bootstrap('Recaptcha')
+#11 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/config/bootstrap.php(188): Cake\Core\Plugin::load('Recaptcha', Array)
+#12 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/bin/cake.php(18): include('/home/toughjjh/...')
+#13 {main}
+
+
+2015-05-12 09:18:23 Warning: Warning (512): /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/tmp/cache/persistent/ is not writable in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 89
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+Recaptcha\Validation\ConfigValidator::__construct() - ROOT/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php, line 96
+include - ROOT/vendor/cake17/cakephp-recaptcha/config/bootstrap.php, line 19
+Cake\Core\Plugin::_includeFile() - CORE/src/Core/Plugin.php, line 390
+Cake\Core\Plugin::bootstrap() - CORE/src/Core/Plugin.php, line 316
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 176
+include - ROOT/config/bootstrap.php, line 188
+[main] - ROOT/bin/cake.php, line 18
+
+
+
+2015-05-12 09:18:23 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(89): Cake\Cache\CacheRegistry->_create('Cake\\Cache\\Engi...', '_cake_core_', Array)
+#1 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(135): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(165): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(73): Cake\Cache\Cache::engine('_cake_core_')
+#4 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(138): Cake\I18n\I18n::translators()
+#5 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/functions.php(81): Cake\I18n\I18n::translator('recaptcha')
+#6 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php(96): __d('recaptcha', 'The lang should...')
+#7 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/config/bootstrap.php(19): Recaptcha\Validation\ConfigValidator->__construct()
+#8 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(390): include('/home/toughjjh/...')
+#9 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(316): Cake\Core\Plugin::_includeFile('/home/toughjjh/...', false)
+#10 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(176): Cake\Core\Plugin::bootstrap('Recaptcha')
+#11 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/config/bootstrap.php(188): Cake\Core\Plugin::load('Recaptcha', Array)
+#12 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/bin/cake.php(18): include('/home/toughjjh/...')
+#13 {main}
+
+
+2015-05-12 09:18:25 Warning: Warning (512): /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/tmp/cache/persistent/ is not writable in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 89
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+Recaptcha\Validation\ConfigValidator::__construct() - ROOT/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php, line 96
+include - ROOT/vendor/cake17/cakephp-recaptcha/config/bootstrap.php, line 19
+Cake\Core\Plugin::_includeFile() - CORE/src/Core/Plugin.php, line 390
+Cake\Core\Plugin::bootstrap() - CORE/src/Core/Plugin.php, line 316
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 176
+include - ROOT/config/bootstrap.php, line 188
+[main] - ROOT/bin/cake.php, line 18
+
+
+
+2015-05-12 09:18:25 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(89): Cake\Cache\CacheRegistry->_create('Cake\\Cache\\Engi...', '_cake_core_', Array)
+#1 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(135): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(165): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(73): Cake\Cache\Cache::engine('_cake_core_')
+#4 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(138): Cake\I18n\I18n::translators()
+#5 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/functions.php(81): Cake\I18n\I18n::translator('recaptcha')
+#6 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php(96): __d('recaptcha', 'The lang should...')
+#7 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/config/bootstrap.php(19): Recaptcha\Validation\ConfigValidator->__construct()
+#8 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(390): include('/home/toughjjh/...')
+#9 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(316): Cake\Core\Plugin::_includeFile('/home/toughjjh/...', false)
+#10 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(176): Cake\Core\Plugin::bootstrap('Recaptcha')
+#11 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/config/bootstrap.php(188): Cake\Core\Plugin::load('Recaptcha', Array)
+#12 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/bin/cake.php(18): include('/home/toughjjh/...')
+#13 {main}
+
+
+2015-05-12 09:18:27 Warning: Warning (512): /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/tmp/cache/persistent/ is not writable in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 89
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+Recaptcha\Validation\ConfigValidator::__construct() - ROOT/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php, line 96
+include - ROOT/vendor/cake17/cakephp-recaptcha/config/bootstrap.php, line 19
+Cake\Core\Plugin::_includeFile() - CORE/src/Core/Plugin.php, line 390
+Cake\Core\Plugin::bootstrap() - CORE/src/Core/Plugin.php, line 316
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 176
+include - ROOT/config/bootstrap.php, line 188
+[main] - ROOT/bin/cake.php, line 18
+
+
+
+2015-05-12 09:18:27 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(89): Cake\Cache\CacheRegistry->_create('Cake\\Cache\\Engi...', '_cake_core_', Array)
+#1 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(135): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(165): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(73): Cake\Cache\Cache::engine('_cake_core_')
+#4 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(138): Cake\I18n\I18n::translators()
+#5 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/functions.php(81): Cake\I18n\I18n::translator('recaptcha')
+#6 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php(96): __d('recaptcha', 'The lang should...')
+#7 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/config/bootstrap.php(19): Recaptcha\Validation\ConfigValidator->__construct()
+#8 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(390): include('/home/toughjjh/...')
+#9 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(316): Cake\Core\Plugin::_includeFile('/home/toughjjh/...', false)
+#10 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(176): Cake\Core\Plugin::bootstrap('Recaptcha')
+#11 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/config/bootstrap.php(188): Cake\Core\Plugin::load('Recaptcha', Array)
+#12 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/bin/cake.php(18): include('/home/toughjjh/...')
+#13 {main}
+
+
+2015-05-12 09:19:35 Warning: Warning (512): /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/tmp/cache/persistent/ is not writable in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 89
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+Recaptcha\Validation\ConfigValidator::__construct() - ROOT/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php, line 96
+include - ROOT/vendor/cake17/cakephp-recaptcha/config/bootstrap.php, line 19
+Cake\Core\Plugin::_includeFile() - CORE/src/Core/Plugin.php, line 390
+Cake\Core\Plugin::bootstrap() - CORE/src/Core/Plugin.php, line 316
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 176
+include - ROOT/config/bootstrap.php, line 188
+[main] - ROOT/bin/cake.php, line 18
+
+
+
+2015-05-12 09:19:35 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(89): Cake\Cache\CacheRegistry->_create('Cake\\Cache\\Engi...', '_cake_core_', Array)
+#1 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(135): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(165): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(73): Cake\Cache\Cache::engine('_cake_core_')
+#4 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(138): Cake\I18n\I18n::translators()
+#5 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/functions.php(81): Cake\I18n\I18n::translator('recaptcha')
+#6 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php(96): __d('recaptcha', 'The lang should...')
+#7 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/config/bootstrap.php(19): Recaptcha\Validation\ConfigValidator->__construct()
+#8 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(390): include('/home/toughjjh/...')
+#9 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(316): Cake\Core\Plugin::_includeFile('/home/toughjjh/...', false)
+#10 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(176): Cake\Core\Plugin::bootstrap('Recaptcha')
+#11 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/config/bootstrap.php(188): Cake\Core\Plugin::load('Recaptcha', Array)
+#12 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/bin/cake.php(18): include('/home/toughjjh/...')
+#13 {main}
+
+
+2015-05-12 09:19:38 Warning: Warning (512): /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/tmp/cache/persistent/ is not writable in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 89
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+Recaptcha\Validation\ConfigValidator::__construct() - ROOT/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php, line 96
+include - ROOT/vendor/cake17/cakephp-recaptcha/config/bootstrap.php, line 19
+Cake\Core\Plugin::_includeFile() - CORE/src/Core/Plugin.php, line 390
+Cake\Core\Plugin::bootstrap() - CORE/src/Core/Plugin.php, line 316
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 176
+include - ROOT/config/bootstrap.php, line 188
+[main] - ROOT/bin/cake.php, line 18
+
+
+
+2015-05-12 09:19:38 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(89): Cake\Cache\CacheRegistry->_create('Cake\\Cache\\Engi...', '_cake_core_', Array)
+#1 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(135): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(165): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(73): Cake\Cache\Cache::engine('_cake_core_')
+#4 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(138): Cake\I18n\I18n::translators()
+#5 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/functions.php(81): Cake\I18n\I18n::translator('recaptcha')
+#6 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php(96): __d('recaptcha', 'The lang should...')
+#7 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/config/bootstrap.php(19): Recaptcha\Validation\ConfigValidator->__construct()
+#8 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(390): include('/home/toughjjh/...')
+#9 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(316): Cake\Core\Plugin::_includeFile('/home/toughjjh/...', false)
+#10 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(176): Cake\Core\Plugin::bootstrap('Recaptcha')
+#11 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/config/bootstrap.php(188): Cake\Core\Plugin::load('Recaptcha', Array)
+#12 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/bin/cake.php(18): include('/home/toughjjh/...')
+#13 {main}
+
+
+2015-05-12 09:20:48 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slboard_development.gallery' doesn't exist
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'gallery', Array, Object(Cake\Database\Schema\Table))
+#1 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('gallery', Array)
+#2 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(426): Cake\Database\Schema\CachedCollection->describe('gallery')
+#3 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/ORM/Table.php(502): Cake\ORM\Table->schema()
+#4 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(194): Cake\ORM\Table->primaryKey()
+#5 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(109): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(95): Bake\Shell\Task\ModelTask->bake('Gallery')
+#7 [internal function]: Bake\Shell\Task\ModelTask->main('gallery')
+#8 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(391): call_user_func_array(Array, Array)
+#9 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Console/Shell.php(386): Cake\Console\Shell->runCommand(Array, false)
+#10 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(204): Cake\Console\Shell->runCommand(Array, true)
+#11 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(175): Cake\Console\ShellDispatcher->_dispatch()
+#12 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(126): Cake\Console\ShellDispatcher->dispatch()
+#13 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/bin/cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2015-06-23 07:17:24 Warning: Warning (512): /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/tmp/cache/persistent/ is not writable in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 89
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+Recaptcha\Validation\ConfigValidator::__construct() - ROOT/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php, line 96
+include - ROOT/vendor/cake17/cakephp-recaptcha/config/bootstrap.php, line 19
+Cake\Core\Plugin::_includeFile() - CORE/src/Core/Plugin.php, line 390
+Cake\Core\Plugin::bootstrap() - CORE/src/Core/Plugin.php, line 316
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 176
+include - ROOT/config/bootstrap.php, line 188
+[main] - ROOT/bin/cake.php, line 18
+
+
+
+2015-06-23 07:17:24 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(89): Cake\Cache\CacheRegistry->_create('Cake\\Cache\\Engi...', '_cake_core_', Array)
+#1 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(135): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(165): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(73): Cake\Cache\Cache::engine('_cake_core_')
+#4 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(138): Cake\I18n\I18n::translators()
+#5 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/functions.php(81): Cake\I18n\I18n::translator('recaptcha')
+#6 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php(96): __d('recaptcha', 'The lang should...')
+#7 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/config/bootstrap.php(19): Recaptcha\Validation\ConfigValidator->__construct()
+#8 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(390): include('/home/toughjjh/...')
+#9 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(316): Cake\Core\Plugin::_includeFile('/home/toughjjh/...', false)
+#10 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(176): Cake\Core\Plugin::bootstrap('Recaptcha')
+#11 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/config/bootstrap.php(188): Cake\Core\Plugin::load('Recaptcha', Array)
+#12 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/bin/cake.php(18): include('/home/toughjjh/...')
+#13 {main}
+
+
+2015-06-23 07:20:26 Warning: Warning (512): /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/tmp/cache/persistent/ is not writable in [/home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 425]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 425
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 101
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 89
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 89
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 135
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 165
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 73
+Cake\I18n\I18n::translator() - CORE/src/I18n/I18n.php, line 138
+__d - CORE/src/I18n/functions.php, line 81
+Recaptcha\Validation\ConfigValidator::__construct() - ROOT/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php, line 96
+include - ROOT/vendor/cake17/cakephp-recaptcha/config/bootstrap.php, line 19
+Cake\Core\Plugin::_includeFile() - CORE/src/Core/Plugin.php, line 390
+Cake\Core\Plugin::bootstrap() - CORE/src/Core/Plugin.php, line 316
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 176
+include - ROOT/config/bootstrap.php, line 188
+[main] - ROOT/bin/cake.php, line 18
+
+
+
+2015-06-23 07:20:26 Error: [RuntimeException] Cache engine Cake\Cache\Engine\FileEngine is not properly configured.
+Stack Trace:
+#0 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(89): Cake\Cache\CacheRegistry->_create('Cake\\Cache\\Engi...', '_cake_core_', Array)
+#1 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(135): Cake\Core\ObjectRegistry->load('_cake_core_', Array)
+#2 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Cache/Cache.php(165): Cake\Cache\Cache::_buildEngine('_cake_core_')
+#3 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(73): Cake\Cache\Cache::engine('_cake_core_')
+#4 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/I18n.php(138): Cake\I18n\I18n::translators()
+#5 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/I18n/functions.php(81): Cake\I18n\I18n::translator('recaptcha')
+#6 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/src/Validation/ConfigValidator.php(96): __d('recaptcha', 'The lang should...')
+#7 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cake17/cakephp-recaptcha/config/bootstrap.php(19): Recaptcha\Validation\ConfigValidator->__construct()
+#8 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(390): include('/home/toughjjh/...')
+#9 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(316): Cake\Core\Plugin::_includeFile('/home/toughjjh/...', false)
+#10 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/vendor/cakephp/cakephp/src/Core/Plugin.php(176): Cake\Core\Plugin::bootstrap('Recaptcha')
+#11 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/config/bootstrap.php(188): Cake\Core\Plugin::load('Recaptcha', Array)
+#12 /home/toughjjh/Documents/Aptana Studio 3 Workspace/slboard_cakephp/bin/cake.php(18): include('/home/toughjjh/...')
+#13 {main}
+
+

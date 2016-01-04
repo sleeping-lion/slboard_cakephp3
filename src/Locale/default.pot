@@ -1,0 +1,896 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-06-23 07:21+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/BlogsController.php:17;35
+msgid "Insert Blog Category First"
+msgstr ""
+
+#: Controller/BlogsController.php:21;39;74
+#: Controller/FaqsController.php:19;48
+#: Controller/GalleriesController.php:23;51
+#: Controller/SLAnonController.php:39;49
+msgid "Invalid post"
+msgstr ""
+
+#: Controller/FaqsController.php:27
+msgid "Insert Faq Category First"
+msgstr ""
+
+#: Controller/GalleriesController.php:19
+msgid "Insert Gallery Category First"
+msgstr ""
+
+#: Controller/SLAnonController.php:56
+msgid "Invalid password, try again"
+msgstr ""
+
+#: Controller/SLController.php:128
+msgid "Title"
+msgstr ""
+
+#: Controller/SLController.php:128
+#: Template/Contacts/admin_view.ctp:19
+msgid "Content"
+msgstr ""
+
+#: Controller/SLController.php:128
+msgid "Title+Content"
+msgstr ""
+
+#: Controller/SLController.php:128
+#: Template/Blogs/index_default.ctp:17
+#: Template/Faqs/index_default.ctp:17
+#: Template/Galleries/index_default.ctp:17
+#: Template/GuestBooks/admin_index.ctp:16
+#: Template/GuestBooks/admin_view.ctp:10
+#: Template/GuestBooks/index.ctp:18
+#: Template/GuestBooks/view.ctp:10
+#: Template/Notices/index.ctp:17
+#: Template/Notices/view.ctp:10
+#: Template/Questions/admin_index.ctp:17
+#: Template/Questions/index.ctp:17
+#: Template/Questions/view.ctp:10
+msgid "Writer"
+msgstr ""
+
+#: Template/BlogCategories/admin_add.ctp:1
+#: Template/BlogCategories/admin_edit.ctp:1
+#: Template/BlogCategories/admin_index.ctp:1;2
+#: Template/BlogCategories/admin_view.ctp:1;2;3
+#: Template/Element/Admin/aside.ctp:21
+msgid "Blog Category"
+msgstr ""
+
+#: Template/BlogCategories/admin_add.ctp:2;3
+msgid "Add Blog Category"
+msgstr ""
+
+#: Template/BlogCategories/admin_add.ctp:9
+#: Template/BlogCategories/admin_edit.ctp:9
+#: Template/BlogComments/admin_add.ctp:8
+#: Template/BlogComments/admin_edit.ctp:7
+#: Template/Blogs/add.ctp:14
+#: Template/Blogs/admin_add.ctp:8
+#: Template/Blogs/admin_edit.ctp:14
+#: Template/Blogs/edit.ctp:14
+#: Template/Contacts/add.ctp:20
+#: Template/Contacts/admin_add.ctp:11
+#: Template/Contacts/admin_edit.ctp:11
+#: Template/Contacts/edit.ctp:11
+#: Template/FaqCategories/admin_add.ctp:7
+#: Template/FaqCategories/admin_edit.ctp:7
+#: Template/Faqs/add.ctp:15
+#: Template/Faqs/admin_add.ctp:10
+#: Template/Faqs/admin_edit.ctp:10
+#: Template/Faqs/edit.ctp:10
+#: Template/Galleries/add.ctp:19
+#: Template/Galleries/admin_add.ctp:10
+#: Template/Galleries/admin_edit.ctp:10
+#: Template/Galleries/edit.ctp:11
+#: Template/GalleryCategories/admin_add.ctp:7
+#: Template/GalleryCategories/admin_edit.ctp:7
+#: Template/Groups/admin_add.ctp:7
+#: Template/Groups/admin_edit.ctp:7
+#: Template/GuestBooks/add.ctp:20
+#: Template/GuestBooks/admin_add.ctp:19
+#: Template/GuestBooks/admin_edit.ctp:15
+#: Template/GuestBooks/check_password.ctp:11
+#: Template/GuestBooks/edit.ctp:15
+#: Template/Histories/add.ctp:11
+#: Template/Histories/admin_add.ctp:11
+#: Template/Histories/admin_edit.ctp:11
+#: Template/Histories/edit.ctp:11
+#: Template/Notices/add.ctp:12
+#: Template/Notices/edit.ctp:9
+#: Template/Portfolios/add.ctp:11
+#: Template/Portfolios/edit.ctp:8
+#: Template/Questions/add.ctp:21
+#: Template/Questions/admin_add.ctp:20
+#: Template/Questions/admin_edit.ctp:8
+#: Template/Questions/check_password.ctp:6
+#: Template/Questions/edit.ctp:8
+#: Template/Users/add.ctp:12
+#: Template/Users/admin_add.ctp:12
+#: Template/Users/admin_edit.ctp:18
+#: Template/Users/edit.ctp:18
+msgid "Save Article"
+msgstr ""
+
+#: Template/BlogCategories/admin_edit.ctp:2;3
+msgid "Edit Blog Category"
+msgstr ""
+
+#: Template/BlogCategories/admin_index.ctp:16
+#: Template/Blogs/admin_index.ctp:15
+#: Template/Contacts/admin_index.ctp:15
+#: Template/FaqCategories/admin_index.ctp:15
+#: Template/Faqs/admin_index.ctp:15
+#: Template/Galleries/admin_index.ctp:15
+#: Template/GalleryCategories/admin_index.ctp:15
+#: Template/Questions/admin_index.ctp:15
+msgid "Id"
+msgstr ""
+
+#: Template/BlogCategories/admin_index.ctp:18
+#: Template/FaqCategories/admin_index.ctp:17
+#: Template/GalleryCategories/admin_index.ctp:17
+#: Template/Groups/admin_index.ctp:16
+msgid "Child Count"
+msgstr ""
+
+#: Template/BlogCategories/admin_index.ctp:19;41
+msgid "Leaf"
+msgstr ""
+
+#: Template/BlogCategories/admin_index.ctp:21
+#: Template/Blogs/admin_index.ctp:19
+#: Template/Contacts/admin_index.ctp:19
+#: Template/FaqCategories/admin_index.ctp:19
+#: Template/Faqs/admin_index.ctp:19
+#: Template/Galleries/admin_index.ctp:19
+#: Template/GalleryCategories/admin_index.ctp:19
+#: Template/Groups/admin_index.ctp:18
+#: Template/GuestBooks/admin_index.ctp:19
+#: Template/Questions/admin_index.ctp:20
+#: Template/Users/admin_index.ctp:18
+msgid "Manage"
+msgstr ""
+
+#: Template/BlogCategories/admin_index.ctp:43
+msgid "No Leaf"
+msgstr ""
+
+#: Template/BlogCategories/admin_index.ctp:50
+#: Template/Blogs/admin_index.ctp:35
+#: Template/Blogs/view.ctp:23
+#: Template/CkeditorAssets/index.ctp:31
+#: Template/Contacts/admin_index.ctp:35
+#: Template/FaqCategories/admin_index.ctp:35
+#: Template/Faqs/admin_index.ctp:32
+#: Template/Faqs/index.ctp:32;42;53
+#: Template/Galleries/admin_index.ctp:35
+#: Template/Galleries/index.ctp:30
+#: Template/GalleryCategories/admin_index.ctp:35
+#: Template/Groups/admin_index.ctp:32
+#: Template/GuestBooks/admin_index.ctp:33
+#: Template/GuestBooks/admin_view.ctp:25
+#: Template/GuestBooks/confirm_delete.ctp:5
+#: Template/GuestBooks/view.ctp:25
+#: Template/Histories/admin_view.ctp:22
+#: Template/Histories/view.ctp:22
+#: Template/Notices/view.ctp:24
+#: Template/Portfolios/view.ctp:22
+#: Template/Questions/admin_index.ctp:37
+#: Template/Questions/confirm_delete.ctp:5
+#: Template/Questions/view.ctp:23
+#: Template/Users/admin_index.ctp:32
+msgid "Are you sure you wish to delete this article?"
+msgstr ""
+
+#: Template/BlogCategories/admin_index.ctp:63
+#: Template/Blogs/admin_index.ctp:47
+#: Template/Blogs/index.ctp:32
+#: Template/Blogs/index_default.ctp:36
+#: Template/CkeditorAssets/index.ctp:55;66
+#: Template/Contacts/admin_index.ctp:48
+#: Template/Contacts/index.ctp:35
+#: Template/Element/BlogCategories/index.ctp:34
+#: Template/Element/Blogs/index.ctp:15
+#: Template/Element/Faqs/index.ctp:15
+#: Template/Element/GuestBooks/index.ctp:15
+#: Template/Element/Notices/index.ctp:15
+#: Template/Element/Questions/index.ctp:15
+#: Template/FaqCategories/admin_index.ctp:47
+#: Template/Faqs/admin_index.ctp:44
+#: Template/Faqs/index.ctp:60
+#: Template/Faqs/index_default.ctp:37
+#: Template/Galleries/admin_index.ctp:47
+#: Template/Galleries/index.ctp:54;64
+#: Template/Galleries/index_default.ctp:36
+#: Template/GalleryCategories/admin_index.ctp:47
+#: Template/Groups/admin_index.ctp:45
+#: Template/GuestBooks/admin_index.ctp:45
+#: Template/GuestBooks/index.ctp:40
+#: Template/Histories/admin_index.ctp:29
+#: Template/Histories/index.ctp:30
+#: Template/Intro/index.ctp:64
+#: Template/Notices/index.ctp:37
+#: Template/Portfolios/index.ctp:20
+#: Template/Questions/admin_index.ctp:49
+#: Template/Questions/index.ctp:39
+#: Template/Users/admin_index.ctp:45
+msgid "No Article"
+msgstr ""
+
+#: Template/BlogCategories/admin_index.ctp:70
+#: Template/BlogComments/admin_index.ctp:34
+#: Template/Blogs/admin_index.ctp:54
+#: Template/Blogs/index.ctp:37
+#: Template/Blogs/index_default.ctp:44
+#: Template/CkeditorAssets/index.ctp:70
+#: Template/Contacts/admin_index.ctp:55
+#: Template/Contacts/index.ctp:41
+#: Template/FaqCategories/admin_index.ctp:54
+#: Template/Faqs/admin_index.ctp:51
+#: Template/Faqs/index.ctp:66
+#: Template/Faqs/index_default.ctp:45
+#: Template/Galleries/admin_index.ctp:54
+#: Template/Galleries/index.ctp:69
+#: Template/Galleries/index_default.ctp:44
+#: Template/GalleryCategories/admin_index.ctp:54
+#: Template/Groups/admin_index.ctp:51
+#: Template/GuestBooks/admin_index.ctp:52
+#: Template/GuestBooks/index.ctp:48
+#: Template/Histories/admin_index.ctp:36
+#: Template/Histories/index.ctp:38
+#: Template/Notices/index.ctp:45
+#: Template/Portfolios/index.ctp:24
+#: Template/Questions/admin_index.ctp:55
+#: Template/Questions/index.ctp:47
+msgid "New Article"
+msgstr ""
+
+#: Template/BlogCategories/admin_view.ctp:7
+#: Template/BlogComments/admin_view.ctp:7
+#: Template/Blogs/admin_view.ctp:7
+#: Template/Blogs/view.ctp:19
+#: Template/Contacts/admin_view.ctp:24
+#: Template/Contacts/view.ctp:7
+#: Template/Element/BlogComments/view.ctp:45
+#: Template/Element/GuestBookComments/view.ctp:45
+#: Template/Element/NoticeComments/view.ctp:45
+#: Template/Element/QuestionComments/view.ctp:45
+#: Template/FaqCategories/admin_view.ctp:7
+#: Template/Faqs/admin_view.ctp:7
+#: Template/Faqs/view.ctp:7
+#: Template/GalleryCategories/admin_view.ctp:7
+#: Template/Groups/admin_view.ctp:17
+#: Template/GuestBookComments/admin_view.ctp:7
+#: Template/GuestBooks/admin_view.ctp:20
+#: Template/GuestBooks/view.ctp:20
+#: Template/Histories/admin_view.ctp:18
+#: Template/Histories/view.ctp:18
+#: Template/Notices/view.ctp:20
+#: Template/Portfolios/view.ctp:18
+#: Template/Questions/admin_view.ctp:7
+#: Template/Questions/view.ctp:18
+#: Template/Users/admin_view.ctp:19
+msgid "List"
+msgstr ""
+
+#: Template/BlogComments/admin_add.ctp:1
+#: Template/BlogComments/admin_edit.ctp:1
+#: Template/BlogComments/admin_index.ctp:1;2
+#: Template/BlogComments/admin_view.ctp:1;2;3
+msgid "Blog Comment"
+msgstr ""
+
+#: Template/BlogComments/admin_add.ctp:2;3
+msgid "Add Blog Comment"
+msgstr ""
+
+#: Template/BlogComments/admin_edit.ctp:2;3
+msgid "Edit Blog Comment"
+msgstr ""
+
+#: Template/Blogs/add.ctp:2
+#: Template/Blogs/admin_add.ctp:1
+#: Template/Blogs/admin_edit.ctp:2
+#: Template/Blogs/admin_index.ctp:1;2
+#: Template/Blogs/admin_view.ctp:1;2;3
+#: Template/Blogs/edit.ctp:2
+#: Template/Blogs/index.ctp:2;3
+#: Template/Blogs/index_default.ctp:1;2
+#: Template/Blogs/view.ctp:1;2;3
+#: Template/Element/header.ctp:24
+#: Template/Element/Admin/aside.ctp:9
+#: Template/Element/BlogCategories/index.ctp:3
+#: Template/Element/BlogComments/view.ctp:1;2;3
+#: Template/Element/Blogs/index.ctp:2
+#: Template/Element/GuestBookComments/view.ctp:1;2;3
+#: Template/Element/NoticeComments/view.ctp:1;2;3
+#: Template/Element/QuestionComments/view.ctp:1;2;3
+msgid "Blog"
+msgstr ""
+
+#: Template/Blogs/add.ctp:3;4
+#: Template/Blogs/admin_add.ctp:2;3
+msgid "Add Blog"
+msgstr ""
+
+#: Template/Blogs/admin_edit.ctp:3;4
+#: Template/Blogs/edit.ctp:3;4
+msgid "Edit Blog"
+msgstr ""
+
+#: Template/Blogs/admin_index.ctp:17
+#: Template/Contacts/admin_index.ctp:17
+#: Template/Faqs/admin_index.ctp:17
+#: Template/Galleries/admin_index.ctp:17
+#: Template/Questions/admin_index.ctp:18
+msgid "Count"
+msgstr ""
+
+#: Template/Blogs/view.ctp:9
+#: Template/Element/BlogComments/view.ctp:9
+#: Template/Element/GuestBookComments/view.ctp:9
+#: Template/Element/NoticeComments/view.ctp:9
+#: Template/Element/QuestionComments/view.ctp:9
+#: Template/Groups/admin_view.ctp:10
+#: Template/GuestBooks/admin_view.ctp:11
+#: Template/GuestBooks/view.ctp:11
+#: Template/Histories/admin_view.ctp:11
+#: Template/Histories/view.ctp:11
+#: Template/Notices/view.ctp:11
+#: Template/Portfolios/view.ctp:11
+#: Template/Questions/view.ctp:10
+#: Template/Users/admin_view.ctp:18
+msgid "Created_at"
+msgstr ""
+
+#: Template/Blogs/view.ctp:22
+#: Template/CkeditorAssets/index.ctp:30
+#: Template/Faqs/index.ctp:31;41;52
+#: Template/Galleries/index.ctp:29
+#: Template/Groups/admin_view.ctp:20
+#: Template/GuestBooks/admin_view.ctp:24;27
+#: Template/GuestBooks/view.ctp:24;27
+#: Template/Histories/admin_view.ctp:21
+#: Template/Histories/view.ctp:21
+#: Template/Notices/view.ctp:23
+#: Template/Portfolios/view.ctp:21
+#: Template/Questions/view.ctp:22;25
+msgid "Edit"
+msgstr ""
+
+#: Template/Blogs/view.ctp:23
+#: Template/CkeditorAssets/index.ctp:31
+#: Template/Faqs/index.ctp:32;42;53
+#: Template/Galleries/index.ctp:30
+#: Template/Groups/admin_view.ctp:21
+#: Template/GuestBooks/admin_view.ctp:25;28
+#: Template/GuestBooks/view.ctp:25;28
+#: Template/Histories/admin_view.ctp:22
+#: Template/Histories/view.ctp:22
+#: Template/Notices/view.ctp:24
+#: Template/Portfolios/view.ctp:22
+#: Template/Questions/view.ctp:23;26
+msgid "Delete"
+msgstr ""
+
+#: Template/CkeditorAssets/add.ctp:1
+msgid "Ckeditor Asset"
+msgstr ""
+
+#: Template/CkeditorAssets/add.ctp:2;3
+msgid "Add Ckeditor Asset"
+msgstr ""
+
+#: Template/CkeditorAssets/add.ctp:7
+msgid "Save Ckeditor Asset"
+msgstr ""
+
+#: Template/CkeditorAssets/index.ctp:3;4
+#: Template/Element/header.ctp:25
+#: Template/Element/Admin/aside.ctp:8
+#: Template/Element/Galleries/index.ctp:2
+#: Template/Galleries/add.ctp:1
+#: Template/Galleries/admin_add.ctp:1
+#: Template/Galleries/admin_edit.ctp:1
+#: Template/Galleries/admin_index.ctp:1;2
+#: Template/Galleries/admin_view.ctp:1;2;3
+#: Template/Galleries/edit.ctp:1
+#: Template/Galleries/index.ctp:3;4
+#: Template/Galleries/index_default.ctp:1;2
+msgid "Gallery"
+msgstr ""
+
+#: Template/CkeditorAssets/index.ctp:14
+#: Template/Faqs/index.ctp:14
+#: Template/Galleries/index.ctp:14
+msgid "No Category"
+msgstr ""
+
+#: Template/Contacts/add.ctp:1;2
+#: Template/Contacts/admin_add.ctp:1
+#: Template/Contacts/admin_edit.ctp:1
+#: Template/Contacts/admin_index.ctp:1;2
+#: Template/Contacts/admin_view.ctp:1
+#: Template/Contacts/complete.ctp:1;2
+#: Template/Contacts/edit.ctp:1
+#: Template/Contacts/index.ctp:1;2
+#: Template/Contacts/view.ctp:1;3
+#: Template/Element/header.ctp:23
+#: Template/Element/Admin/aside.ctp:6
+msgid "Contact"
+msgstr ""
+
+#: Template/Contacts/admin_add.ctp:2;3
+msgid "Add Contact"
+msgstr ""
+
+#: Template/Contacts/admin_edit.ctp:2;3
+#: Template/Contacts/edit.ctp:2;3
+msgid "Edit Contact"
+msgstr ""
+
+#: Template/Contacts/admin_view.ctp:7
+#: Template/Users/admin_view.ctp:6
+msgid "Name"
+msgstr ""
+
+#: Template/Contacts/admin_view.ctp:11
+#: Template/Users/admin_view.ctp:10
+msgid "Email"
+msgstr ""
+
+#: Template/Contacts/admin_view.ctp:15
+msgid "Phone"
+msgstr ""
+
+#: Template/Element/footer.ctp:4
+#: Template/Element/footer.ctp:4
+msgid "Address"
+msgstr ""
+
+#: Template/Element/header.ctp:4
+#: Template/Element/Admin/header.ctp:3
+msgid "Welcome"
+msgstr ""
+
+#: Template/Element/header.ctp:5
+#: Template/Element/Admin/header.ctp:4
+msgid "Logout"
+msgstr ""
+
+#: Template/Element/header.ctp:7
+#: Template/Users/admin_index.ctp:51
+msgid "New User"
+msgstr ""
+
+#: Template/Element/header.ctp:8
+#: Template/Users/admin_login.ctp:7;17
+#: Template/Users/login.ctp:2;3;17
+msgid "Login"
+msgstr ""
+
+#: Template/Element/header.ctp:12
+#: Template/Element/Admin/login_header.ctp:2
+msgid "Home Title"
+msgstr ""
+
+#: Template/Element/header.ctp:16;19
+#: Template/Element/Admin/aside.ctp:4
+#: Template/Intro/admin_index.ctp:3;4
+#: Template/Intro/index.ctp:3;4
+#: Template/Intro/intro.ctp:1;2
+msgid "Intro"
+msgstr ""
+
+#: Template/Element/header.ctp:20
+#: Template/Histories/add.ctp:2
+#: Template/Histories/admin_add.ctp:2
+#: Template/Histories/admin_index.ctp:1;2
+#: Template/Histories/edit.ctp:2
+#: Template/Histories/index.ctp:1;2
+#: Template/Histories/view.ctp:1
+msgid "History"
+msgstr ""
+
+#: Template/Element/header.ctp:24
+msgid "Blogs"
+msgstr ""
+
+#: Template/Element/header.ctp:25
+msgid "Galleries"
+msgstr ""
+
+#: Template/Element/header.ctp:26
+#: Template/Element/Admin/aside.ctp:7
+#: Template/Element/Questions/index.ctp:2
+#: Template/Questions/add.ctp:1
+#: Template/Questions/admin_add.ctp:1
+#: Template/Questions/admin_edit.ctp:1
+#: Template/Questions/admin_index.ctp:1;2
+#: Template/Questions/admin_view.ctp:1;3
+#: Template/Questions/check_password.ctp:1
+#: Template/Questions/confirm_delete.ctp:1
+#: Template/Questions/edit.ctp:1
+#: Template/Questions/index.ctp:1;2
+#: Template/Questions/view.ctp:1
+msgid "Question"
+msgstr ""
+
+#: Template/Element/header.ctp:27
+#: Template/Element/Admin/aside.ctp:5
+#: Template/Element/Faqs/index.ctp:2
+#: Template/Faqs/add.ctp:1
+#: Template/Faqs/admin_add.ctp:1
+#: Template/Faqs/admin_edit.ctp:1
+#: Template/Faqs/admin_index.ctp:1;2
+#: Template/Faqs/admin_view.ctp:1;2;3
+#: Template/Faqs/edit.ctp:1
+#: Template/Faqs/index.ctp:2;3
+#: Template/Faqs/index_default.ctp:1;2
+#: Template/Faqs/view.ctp:1;2;3
+msgid "Faq"
+msgstr ""
+
+#: Template/Element/header.ctp:28
+#: Template/Element/info.ctp:4
+#: Template/Element/Admin/aside.ctp:10
+#: Template/Element/Notices/index.ctp:2
+#: Template/Notices/add.ctp:1
+#: Template/Notices/edit.ctp:2
+#: Template/Notices/index.ctp:1;2
+#: Template/Notices/view.ctp:1
+msgid "Notice"
+msgstr ""
+
+#: Template/Element/header.ctp:29
+#: Template/Element/Admin/aside.ctp:11
+#: Template/Element/GuestBooks/index.ctp:2
+#: Template/GuestBooks/add.ctp:1
+#: Template/GuestBooks/admin_add.ctp:1
+#: Template/GuestBooks/admin_edit.ctp:1
+#: Template/GuestBooks/admin_index.ctp:1;2
+#: Template/GuestBooks/admin_view.ctp:1
+#: Template/GuestBooks/check_password.ctp:1
+#: Template/GuestBooks/confirm_delete.ctp:1
+#: Template/GuestBooks/edit.ctp:1
+#: Template/GuestBooks/index.ctp:2;3
+#: Template/GuestBooks/view.ctp:1
+msgid "Guest Book"
+msgstr ""
+
+#: Template/Element/header.ctp:30
+#: Template/Portfolios/add.ctp:1
+#: Template/Portfolios/edit.ctp:1
+#: Template/Portfolios/index.ctp:2;3
+#: Template/Portfolios/view.ctp:1
+msgid "Portfolio"
+msgstr ""
+
+#: Template/Element/header.ctp:30
+msgid "Portfolios"
+msgstr ""
+
+#: Template/Element/search.ctp:13;26
+msgid "insert search word"
+msgstr ""
+
+#: Template/Element/search.ctp:15;28
+msgid "Search"
+msgstr ""
+
+#: Template/Element/Admin/aside.ctp:13
+#: Template/Users/add.ctp:1
+#: Template/Users/admin_add.ctp:1
+#: Template/Users/admin_edit.ctp:1
+#: Template/Users/admin_index.ctp:1;2
+#: Template/Users/admin_view.ctp:1
+#: Template/Users/complete.ctp:1;2
+#: Template/Users/edit.ctp:1
+#: Template/Users/login.ctp:1
+msgid "User"
+msgstr ""
+
+#: Template/Element/Admin/aside.ctp:16
+msgid "Categories"
+msgstr ""
+
+#: Template/Element/Admin/aside.ctp:19
+#: Template/FaqCategories/admin_add.ctp:1
+#: Template/FaqCategories/admin_edit.ctp:1
+#: Template/FaqCategories/admin_index.ctp:1;2
+#: Template/FaqCategories/admin_view.ctp:1;2;3
+msgid "Faq Category"
+msgstr ""
+
+#: Template/Element/Admin/aside.ctp:20
+#: Template/GalleryCategories/admin_add.ctp:1
+#: Template/GalleryCategories/admin_edit.ctp:1
+#: Template/GalleryCategories/admin_index.ctp:1;2
+#: Template/GalleryCategories/admin_view.ctp:1;2;3
+msgid "Gallery Category"
+msgstr ""
+
+#: Template/Element/Admin/aside.ctp:22
+#: Template/Groups/admin_add.ctp:1
+#: Template/Groups/admin_edit.ctp:1
+#: Template/Groups/admin_index.ctp:1;2
+#: Template/Groups/admin_view.ctp:1;3
+msgid "Group"
+msgstr ""
+
+#: Template/Element/BlogCategories/index.ctp:11
+msgid "All"
+msgstr ""
+
+#: Template/Element/BlogCategories/index.ctp:37
+#: Template/Element/Blogs/index.ctp:17
+#: Template/Element/Faqs/index.ctp:17
+#: Template/Element/Galleries/index.ctp:23
+#: Template/Element/GuestBooks/index.ctp:17
+#: Template/Element/Notices/index.ctp:17
+#: Template/Element/Questions/index.ctp:17
+msgid "more"
+msgstr ""
+
+#: Template/Element/BlogComments/add.ctp:12
+#: Template/Element/GuestBookComments/add.ctp:12
+#: Template/Element/NoticeComments/add.ctp:10
+#: Template/Element/QuestionComments/add.ctp:12
+#: Template/GuestBookComments/admin_add.ctp:8
+#: Template/GuestBookComments/admin_edit.ctp:7
+msgid "Save Comment"
+msgstr ""
+
+#: Template/Element/LanguageSelector/default.ctp:7
+msgid "Change Language"
+msgstr ""
+
+#: Template/Element/ThemeSelector/default.ctp:7
+msgid "Change Theme"
+msgstr ""
+
+#: Template/FaqCategories/admin_add.ctp:2;3
+msgid "Add Faq Category"
+msgstr ""
+
+#: Template/FaqCategories/admin_edit.ctp:2;3
+msgid "Edit Faq Category"
+msgstr ""
+
+#: Template/Faqs/add.ctp:2;3
+#: Template/Faqs/admin_add.ctp:2;3
+msgid "Add Faq"
+msgstr ""
+
+#: Template/Faqs/admin_edit.ctp:2;3
+#: Template/Faqs/edit.ctp:2;3
+msgid "Edit Faq"
+msgstr ""
+
+#: Template/Galleries/add.ctp:2;3
+#: Template/Galleries/admin_add.ctp:2;3
+msgid "Add Gallery"
+msgstr ""
+
+#: Template/Galleries/admin_edit.ctp:2;3
+#: Template/Galleries/edit.ctp:2;3
+msgid "Edit Gallery"
+msgstr ""
+
+#: Template/GalleryCategories/admin_add.ctp:2;3
+msgid "Add Gallery Category"
+msgstr ""
+
+#: Template/GalleryCategories/admin_edit.ctp:2;3
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: Template/Groups/admin_add.ctp:2;3
+msgid "Add Group"
+msgstr ""
+
+#: Template/Groups/admin_edit.ctp:2;3
+msgid "Edit Group"
+msgstr ""
+
+#: Template/GuestBookComments/admin_add.ctp:1
+#: Template/GuestBookComments/admin_edit.ctp:1
+#: Template/GuestBookComments/admin_index.ctp:1;2
+#: Template/GuestBookComments/admin_view.ctp:1;2;3
+msgid "Guest Book Comment"
+msgstr ""
+
+#: Template/GuestBookComments/admin_add.ctp:2;3
+msgid "Add Guest Book Comment"
+msgstr ""
+
+#: Template/GuestBookComments/admin_edit.ctp:2;3
+msgid "Edit Guest Book Comment"
+msgstr ""
+
+#: Template/GuestBookComments/admin_index.ctp:34
+msgid "New Comment"
+msgstr ""
+
+#: Template/GuestBooks/add.ctp:2;3
+#: Template/GuestBooks/admin_add.ctp:2;3
+msgid "Add Guest Book"
+msgstr ""
+
+#: Template/GuestBooks/admin_edit.ctp:2;3
+#: Template/GuestBooks/edit.ctp:2;3
+msgid "Edit Guest Book"
+msgstr ""
+
+#: Template/GuestBooks/check_password.ctp:2;3
+#: Template/Questions/check_password.ctp:2;3
+msgid "Check Password"
+msgstr ""
+
+#: Template/GuestBooks/confirm_delete.ctp:2;3
+#: Template/Questions/confirm_delete.ctp:2;3
+msgid "Confirm Delete"
+msgstr ""
+
+#: Template/GuestBooks/confirm_delete.ctp:6
+#: Template/Questions/confirm_delete.ctp:6
+msgid "Delete Article"
+msgstr ""
+
+#: Template/GuestBooks/confirm_delete.ctp:7
+#: Template/Questions/confirm_delete.ctp:7
+msgid "Cancel"
+msgstr ""
+
+#: Template/Histories/add.ctp:3;4
+#: Template/Histories/admin_add.ctp:3;4
+msgid "Add History"
+msgstr ""
+
+#: Template/Histories/admin_edit.ctp:2
+#: Template/Histories/admin_view.ctp:1
+msgid "Histroy"
+msgstr ""
+
+#: Template/Histories/admin_edit.ctp:3;4
+#: Template/Histories/edit.ctp:3;4
+msgid "Edit History"
+msgstr ""
+
+#: Template/Layout/sl.ctp:5
+#: Template/Themed/BlacknWhite/Layouts/_sl.ctp:4
+#: Template/Themed/Simple/Layouts/_sl.ctp:4
+msgid "Homepage Title"
+msgstr ""
+
+#: Template/Layout/sl.ctp:29
+#: Template/Themed/BlacknWhite/Layouts/_sl.ctp:26
+#: Template/Themed/Simple/Layouts/_sl.ctp:27
+msgid "Home"
+msgstr ""
+
+#: Template/Notices/add.ctp:2;3
+msgid "Add Notice"
+msgstr ""
+
+#: Template/Notices/edit.ctp:3;4
+msgid "Edit Notice"
+msgstr ""
+
+#: Template/Portfolios/add.ctp:2;3
+msgid "Add Portfolio"
+msgstr ""
+
+#: Template/Portfolios/edit.ctp:2;3
+msgid "Edit Portfolio"
+msgstr ""
+
+#: Template/Questions/add.ctp:2;3
+#: Template/Questions/admin_add.ctp:2;3
+msgid "Add Question"
+msgstr ""
+
+#: Template/Questions/admin_edit.ctp:2;3
+#: Template/Questions/edit.ctp:2;3
+msgid "Edit Question"
+msgstr ""
+
+#: Template/Users/add.ctp:2;3
+#: Template/Users/admin_add.ctp:2;3
+msgid "Add User"
+msgstr ""
+
+#: Template/Users/admin_edit.ctp:2;3
+#: Template/Users/edit.ctp:2;3
+msgid "Edit User"
+msgstr ""
+
+#: Template/Users/admin_view.ctp:14
+msgid "Description"
+msgstr ""
+
+#: Template/Users/login.ctp:8
+msgid "Please enter your email and password"
+msgstr ""
+
+#: Template/Users/login.ctp:14
+msgid "Password"
+msgstr ""
+
+#: Template/Element/jumbotron.ctp:2
+msgid "Main Title"
+msgstr ""
+
+#: Template/Element/jumbotron.ctp:3
+msgid "Main Description"
+msgstr ""
+
+#: Template/Element/jumbotron.ctp:4
+msgid "Now Download"
+msgstr ""
+
+#: Template/Element/jumbotron.ctp:5
+msgid "SLBoard Dream"
+msgstr ""
+
+#: Template/Element/LanguageSelector/default.ctp:3
+#: Template/Element/LanguageSelector/link.ctp:2
+msgid "Korean"
+msgstr ""
+
+#: Template/Element/LanguageSelector/default.ctp:4
+#: Template/Element/LanguageSelector/link.ctp:3
+msgid "English"
+msgstr ""
+
+#: Template/Element/LanguageSelector/default.ctp:5
+#: Template/Element/LanguageSelector/link.ctp:4
+msgid "Chinese"
+msgstr ""
+
+#: Template/Element/ThemeSelector/default.ctp:3
+#: Template/Element/ThemeSelector/link.ctp:2
+msgid "Default Theme"
+msgstr ""
+
+#: Template/Element/ThemeSelector/default.ctp:4
+#: Template/Element/ThemeSelector/link.ctp:3
+msgid "Simple Theme"
+msgstr ""
+
+#: Template/Element/ThemeSelector/default.ctp:5
+#: Template/Element/ThemeSelector/link.ctp:4
+msgid "BlacknWhite Theme"
+msgstr ""
+
+#: Template/Error/error400.ctp:33
+#: Template/Error/error500.ctp:35
+msgid "Error"
+msgstr ""
+
+#: Template/Error/error400.ctp:35
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:33
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
