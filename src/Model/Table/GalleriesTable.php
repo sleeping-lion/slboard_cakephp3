@@ -32,12 +32,7 @@ class GalleriesTable extends Table
             'foreignKey' => 'gallery_category_id',
             'joinType' => 'INNER'
         ]);
-        $this->addBehavior('Utils.Uploadable', [
- 'photo' => [                                                    //field_name of form input
-     		'path' => '{ROOT}{DS}{WEBROOT}{DS}uploads{DS}{model}{DS}{field}{DS}',
-        'fileName' => '{field}.{extension}'                       // File name with extension
-        ],
-     ]);
+        $this->addBehavior('Utils.Uploadable',array('photo'));
     }
 
     /**
@@ -63,8 +58,8 @@ class GalleriesTable extends Table
         $validator
             ->allowEmpty('location');
             
-				$validator->add('photo', 'file', array(
-    		'rule' => array('mimeType', array('image/jpeg', 'image/png'))));
+				/*$validator->add('photo', 'file', array(
+    		'rule' => array('mimeType', array('image/jpeg', 'image/png')))); */
     		
     		$validator->allowEmpty('id', 'create')->allowEmpty('photo', 'update');
 
