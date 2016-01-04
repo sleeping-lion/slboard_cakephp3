@@ -8,7 +8,6 @@ use Cake\ORM\Entity;
  */
 class Notice extends Entity
 {
-
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
      *
@@ -17,10 +16,6 @@ class Notice extends Entity
     protected $_accessible = [
         'user_id' => true,
         'title' => true,
-        'enable' => true,
-        'count' => true,
-        'created_at' => true,
-        'updated_at' => true,
-        'user' => true,
+        '*' => false,
     ];
 }

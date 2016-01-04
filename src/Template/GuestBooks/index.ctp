@@ -20,7 +20,7 @@
 				</tr>
 			</thead>
 			<tbody>
-				<?php if(count($guestBooks)): ?>
+				<?php if($guestBooks->count()): ?>
 				<?php foreach ($guestBooks as $guestBook): ?>
 				<tr>
 					<td class="sl_t_id"><?php echo $guestBook['id']; ?></td>
@@ -32,8 +32,8 @@
 					<td class="sl_t_created_at"><?=$guestBook->created_at ?></td>
 				</tr>
     		<?php endforeach ?>
-    		<?php unset($guestBooks) ?>
-    		<?php unset($guestBook) ?>	
+    		<?php unset($guestBook) ?>
+    		<?php unset($guestBooks) ?>	
     		<?php else: ?>
     		<tr>
     			<td colspan="4"><?php echo __('No Article') ?></td>

@@ -16,23 +16,20 @@ class HomeController extends SLController
      */
 	public function index() {
 		$this -> loadModel('Notices');
-		$this -> set('notices', $this -> Notices -> find('all', array('order'=>'id desc','limit' => 5, 'recursive' => -1)));
+		$this -> set('notices',  $this -> Notices ->  find('all')->where(array('enable' => true))->order(array('id'=>'DESC'))->limit(5));
 
 		$this -> loadModel('Questions');
-		$this -> set('questions', $this -> Questions -> find('all', array('order'=>'id desc','limit' => 5, 'recursive' => -1)));
+		$this -> set('questions', $this -> Questions ->  find('all')->where(array('enable' => true))->order(array('id'=>'DESC'))->limit(5));
 
 		$this -> loadModel('GuestBooks');
-		$this -> set('guest_books', $this -> GuestBooks -> find('all', array('order'=>'id desc','limit' => 5, 'recursive' => -1)));
+		$this -> set('guestBooks', $this -> GuestBooks ->  find('all')->where(array('enable' => true))->order(array('id'=>'DESC'))->limit(5));
 
 		$this -> loadModel('Galleries');
-		$galleries=$this -> Galleries -> find('all', array('order'=>'id desc','limit' => 5, 'recursive' => -1))->toArray();
-		
-		if(count($galleries))
-			$galleries=array_chunk($galleries,5);
-		
-		$this -> set('galleries',$galleries);
+		$this -> set('galleries', $this -> Galleries ->  find('all')->where(array('enable' => true))->order(array('id'=>'DESC'))->limit(30));
 
 		$this -> loadModel('Blogs');
-		$this -> set('blogs', $this -> Blogs -> find('all', array('conditions'=>array('photo is not null'),'order'=>'id desc','limit' => 5, 'recursive' => -1)));
+		$this -> set('blogs', $this -> Blogs ->  find('all')->where(array('enable' => true))->order(array('id'=>'DESC'))->limit(5));
+		
+		$this->set('_serialize', array('Notices','Questions','GuestBooks','Galleries','Blogs'));
 	}
 }

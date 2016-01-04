@@ -17,9 +17,9 @@ class GuestBooksController extends SLAnonController
     public function index()
     {
 		$this -> GuestBooks -> recursive = 0;
-		$this -> setSearch('GuestBook');    	
-        $this->set('guestBooks', $this->paginate($this->GuestBooks));
-        $this->set('_serialize', ['guestBooks']);
+		$this -> setSearch('GuestBook');
+		$this->set('guestBooks', $this->paginate($this->GuestBooks));
+		$this->set('_serialize', ['guestBooks']);
     }
 
     /**

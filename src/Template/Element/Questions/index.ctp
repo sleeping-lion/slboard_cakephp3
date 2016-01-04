@@ -1,15 +1,15 @@
 <article id="sl_main_question" class="sl_main_list">
 	<h3><?php echo __('Question') ?></h3>
-	<?php if(count($questions)): ?>
+	<?php if($questions->count()): ?>
 	<ul>
 		<?php foreach ($questions as $index => $question): ?>
 		<li>
-			<?php echo $this -> Html -> link($this->Text->truncate($question['Question']['title'],30), array('controller' => 'questions', 'action' => 'view',$question['Question']['id'])) ?>
-			<span class="sl_created_at"><?php echo $this->App->getFormatDate($question['Question']['created_at']) ?></span>					
+			<?php echo $this -> Html -> link($this->Text->truncate($question['title'],30), array('controller' => 'questions', 'action' => 'view',$question['id'])) ?>
+			<span class="sl_created_at"><?php echo $question['created_at'] ?></span>					
 		</li>
 		<?php endforeach ?>
-		<?php unset($questions) ?>
 		<?php unset($question) ?>
+		<?php unset($questions) ?>
   </ul>
   <?php else: ?>
   <p><?php echo __('No Article') ?></p>

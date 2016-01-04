@@ -31,6 +31,15 @@ class NoticesTable extends Table
         $this->hasOne('NoticeContents', [
             'foreignKey' => 'id',
             'joinType' => 'INNER'
+        ]);
+		
+        $this->addBehavior('Timestamp', [
+            'events' => [
+                'Model.beforeSave' => [                
+                    'created_at' => 'new',
+                    'modified_at' => 'always'
+                ]
+            ]
         ]);		
     }
 
@@ -46,19 +55,7 @@ class NoticesTable extends Table
             ->add('id', 'valid', ['rule' => 'numeric'])
             ->allowEmpty('id', 'create')
             ->requirePresence('title', 'create')
-            ->notEmpty('title')
-            ->add('enable', 'valid', ['rule' => 'boolean'])
-            ->requirePresence('enable', 'create')
-            ->notEmpty('enable')
-            ->add('count', 'valid', ['rule' => 'numeric'])
-            ->requirePresence('count', 'create')
-            ->notEmpty('count')
-            ->add('created_at', 'valid', ['rule' => 'datetime'])
-            ->requirePresence('created_at', 'create')
-            ->notEmpty('created_at')
-            ->add('updated_at', 'valid', ['rule' => 'datetime'])
-            ->requirePresence('updated_at', 'create')
-            ->notEmpty('updated_at');
+            ->notEmpty('title');
 
         return $validator;
     }

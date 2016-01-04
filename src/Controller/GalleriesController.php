@@ -95,6 +95,7 @@ class GalleriesController extends SLController
         $gallery = $this->Galleries->newEntity();
         if ($this->request->is('post')) {
             $gallery = $this->Galleries->patchEntity($gallery, $this->request->data);
+			
             if ($this->Galleries->save($gallery)) {
                 $this->Flash->success('The gallery has been saved.');
                 return $this->redirect(['action' => 'index']);

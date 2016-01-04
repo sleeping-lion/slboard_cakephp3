@@ -46,7 +46,7 @@ class GalleriesTable extends Table
     public function validationDefault(Validator $validator)
     {
         $validator
-            ->add('id', 'valid', ['rule' => 'numeric'])
+            ->add('id', 'valid', array('rule' => 'numeric'))
             ->allowEmpty('id', 'create');
             
         $validator
@@ -60,29 +60,10 @@ class GalleriesTable extends Table
         $validator
             ->allowEmpty('location');
             
-        $validator
-            ->requirePresence('photo', 'create')
-            ->notEmpty('photo');
-            
-        $validator
-            ->add('count', 'valid', ['rule' => 'numeric'])
-            ->requirePresence('count', 'create')
-            ->notEmpty('count');
-            
-        $validator
-            ->add('enable', 'valid', ['rule' => 'boolean'])
-            ->requirePresence('enable', 'create')
-            ->notEmpty('enable');
-            
-        $validator
-            ->add('created_at', 'valid', ['rule' => 'datetime'])
-            ->requirePresence('created_at', 'create')
-            ->notEmpty('created_at');
-            
-        $validator
-            ->add('updated_at', 'valid', ['rule' => 'datetime'])
-            ->requirePresence('updated_at', 'create')
-            ->notEmpty('updated_at');
+				$validator->add('photo', 'file', array(
+    		'rule' => array('mimeType', array('image/jpeg', 'image/png'))));
+    		
+    		$validator->allowEmpty('id', 'create')->allowEmpty('photo', 'update');
 
         return $validator;
     }
